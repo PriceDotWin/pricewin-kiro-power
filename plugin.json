@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pricewin",
+  "version": "1.0.4",
+  "description": "Compare live hotel and flight prices across Booking.com, Agoda, Trip.com and Traveloka, in USD, through the hosted PriceWin MCP server. Includes the pricewin-travel-search skill. Can send a booking request to a direct-listed hotel (nothing is charged; the guest pays at the property).",
+  "author": {
+    "name": "PriceWin",
+    "url": "https://www.price.win/",
+    "email": "support@price.win"
+  },
+  "homepage": "https://www.price.win/",
+  "repository": "https://github.com/PriceDotWin/pricewin-kiro-power",
+  "license": "MIT",
+  "keywords": [
+    "hotel prices",
+    "flight prices",
+    "travel",
+    "hotels",
+    "flights",
+    "price comparison",
+    "booking",
+    "pricewin"
+  ]
+}
