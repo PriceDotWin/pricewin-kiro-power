@@ -12,15 +12,19 @@ Traveloka, in USD, from inside Kiro. This power is in the Agent Plugins format:
 
 ## Install
 
-In the Kiro IDE, clone this repository, open the Powers panel, choose
-**Add Custom Power**, then **Import power from a folder** and select the clone.
+In the Kiro IDE, open the Powers panel, choose **Add Custom Power**, then
+**Import power from GitHub** and paste this repository's URL.
 
 With Kiro CLI:
 
 ```bash
 git clone https://github.com/PriceDotWin/pricewin-kiro-power
 kiro-cli powers install ./pricewin-kiro-power
+kiro-cli --v3
 ```
+
+Powers activate from keywords in your prompt, so asking about hotel or flight
+prices loads PriceWin's tools. Tested with Kiro CLI 2.27.1 on its V3 engine.
 
 Then ask, for example:
 
